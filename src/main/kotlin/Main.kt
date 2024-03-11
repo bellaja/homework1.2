@@ -3,9 +3,9 @@ package ru.netology
 
 fun main() {
 
-    abc(1)
+    numberOfLikesFor(11)
 }
-fun abc (likes: Int){
+fun numberOfLikesFor (likes: Int){
     val likesRemainder = likes % 10
     if (likes===11){
         println("Понравилось $likes людям")
