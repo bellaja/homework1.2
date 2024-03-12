@@ -1,6 +1,4 @@
 package ru.netology
-
-
 fun main() {
 
     numberOfLikesFor(11)
